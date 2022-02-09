@@ -18,6 +18,7 @@ const Warehouse = () => {
     useEffect(() => {
         getWareHouse(['RETAIL', 'VA-RETAIL']);
     }, []);
+
     const RouteTo = (link, text) => (
         <Link to={link} target="_self">
             {text}
